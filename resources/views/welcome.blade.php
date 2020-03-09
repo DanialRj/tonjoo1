@@ -33,11 +33,11 @@
                                     page runnging in test number 1 so in others link using another subdomain. You need to Login Also for login detail in readme.
                                     <br><br>
                                     For complate README you can download it from this link :<br>
-                                    <a href="{{ url('/readme') }}">Click Here</a>
+                                    <a target="_blank" href="{{ url('/readme') }}">Click Here</a>
 
                                     <br><br>
                                     For complate sourcode you can download it from this link :<br>
-                                    <a href="{{ url('/drive') }}">Click Here</a>
+                                    <a target="_blank" href="{{ url('/drive') }}">Click Here</a>
 
                                     <br><br>
                                     Enjoy :D

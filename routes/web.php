@@ -39,3 +39,11 @@ Route::get('/tonjoo-tree', function() {
 Route::get('/tonjoo-tree', function() {
     return redirect('http://tonjoo3.temo-id.com/api/numbers/fibo/5');
 })->middleware('auth');
+
+Route::get('/readme', function() {
+    return redirect('https://docs.google.com/document/d/1l4Vj3SbIkuFzoCdKC25uPevBglY_EM-4Wa6-CuAKF2A/edit?usp=sharing');
+})->middleware('auth');
+
+Route::get('/drive', function() {
+    return redirect('https://drive.google.com/drive/folders/17mFNmPBLGBlGlwlJUOFcNwgrfFUsL3IN?usp=sharing');
+})->middleware('auth');

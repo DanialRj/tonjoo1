@@ -1,0 +1,29 @@
+.card {
+    &--no-border {
+        border: none;
+    }
+
+    &-body {
+        &__text {
+            text-align: center;
+            font-size: 24px;
+        }
+    }
+}
+
+.content-wrapper {
+    margin-top: 7rem !important;
+
+    &__card {
+        height: 100% !important;
+        
+        &-body {
+            padding: 15% 0 !important;
+        }
+    }
+
+    &__text-right {
+        position: absolute;
+        right: 0;
+    }
+}

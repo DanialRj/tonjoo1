@@ -1,0 +1,12 @@
+.tree {
+    &__card-body {
+        height : 100px !important;
+        padding : 30px;
+    }
+
+    &__button {
+        position: absolute; 
+        bottom: 15px; 
+        right: 15px;
+    }
+}
